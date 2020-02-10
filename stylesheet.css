@@ -6,7 +6,7 @@ body{
 }
 .header {
     background-color: #3B5998;
-    padding: 0 180px;
+    padding: 0 20%;
     height: 82px;
     border: 1px solid;
 
@@ -290,7 +290,7 @@ hr{
 }
 @media screen and (max-width: 375px){
     .header{
-        padding-bottom: 15%;
+        padding-bottom: 12%;
         text-align: center;
     }
 
@@ -304,7 +304,7 @@ hr{
     #right_div{
         /* padding-left: 2%; */
         float: none !important; 
-        margin-top: 5px;
+        margin-top: 2%;
     }
     #centre{
         text-align: center;
@@ -364,3 +364,4 @@ hr{
         width: 100%;
     }
 }
+
