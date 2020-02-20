@@ -9,102 +9,195 @@
 
 </head>
 <body>
+    <form action="">
 
-    <div class="header">
-        <div id="left_div"><a href="#"><strong><h1>facebook</h1></a></strong></div>
-        <div id="right_div" ><a href="#"><h5">Log in to Existing Account</h5></a></div>
-    </div>
-    <div id="centre">
-        <div id="main_div">
-           <div id="create">Create a new account</div>
-                <h2>It's quick and easy</h2>
-            <div class="centre" >
-                <input class="text0" type="text" placeholder="First name">
-                <input class="text1" type="text" placeholder="Surname"><br>
-                <input class="text2" type="text" placeholder="Mobile number or email address"><br>
-                <input class="text3" type="password" placeholder="New password">
-                <div id="date">
-                    <h4>Birthday</h4>
-                    <select class="time" title="days">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                    </select>
-                    <select class="time" title="months">
-                        <option value="jan">jan</option>
-                        <option value="feb">feb</option>
-                        <option value="march">march</option>
-                        <option value="april">april</option>
-                        <option value="may">may</option>
-                    </select>
-                    <select class="time" title="years">
-                        <option value="2016">2016</option>
-                        <option value="2017">2017</option>
-                        <option value="2018">2018</option>
-                        <option value="2019">2019</option>
-                        <option value="2020">2020</option>
-                    </select>
-                    <div id="QM"><p>?</p></div>
+        <div class="header">
+            <div id="left_div"><a href="#"><strong><h1>facebook</h1></a></strong></div>
+            <div id="right_div" ><a href="#"><h5">Log in to Existing Account</h5></a></div>
+        </div>
+        <div id="centre">
+            <div id="main_div">
+               <div id="create">Create a new account</div>
+                    <h2>It's quick and easy</h2>
+                <div class="centre" >
+                    <input id="fname" class="text0" type="text" placeholder="First name">
+                    <input id="sname" class="text1" type="text" placeholder="Surname"><br>
+                    <input id="mail" class="text2" type="text" placeholder="Mobile number or email address"><br>
+                    <input id="pass" class="text3" type="password" placeholder="New password">
+                    <div id="date">
+                        <h4>Birthday</h4>
+                        <select class="time" title="days">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <select class="time" title="months">
+                            <option value="jan">jan</option>
+                            <option value="feb">feb</option>
+                            <option value="march">march</option>
+                            <option value="april">april</option>
+                            <option value="may">may</option>
+                        </select>
+                        <select class="time" title="years">
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                        </select>
+                        <div id="QM"><p>?</p></div>
+                    </div>
+                    <div id="gender">
+                        <h4>Gender</h4>
+                        <input class="radio_btn" id="ck" type="radio" value="male" name="gender" checked><h6>Male</h6> 
+                        <input class="radio_btn"  id="ck" type="radio" value="female" name="gender"><h6>feMale</h6> 
+                        <input class="radio_btn"  id="ck" type="radio" value="pata ni" name="gender"><h6>Custom</h6> 
+                        <div id="QM"><p>?</p></div>
+                    </div>
+                            <p>By clicking Sign Up, you agree tp our <a href="www.google.com">Terms</a>, <a href="www.yahoo.com">Data Policy</a> and <a href="blank">Cookie Policy</a>. You may recieve SMS notifications from us and can opt out at any time.</p>
+                            <button onclick="return formvalidate(event)" id="submit_btn" type="submit">Submit</button>
+    </form>
                 </div>
-                <div id="gender">
-                    <h4>Gender</h4>
-                    <input class="radio_btn" type="radio" name="gender"><h6>Female</h6> 
-                    <input class="radio_btn" type="radio" name="gender"><h6>Male</h6> 
-                    <input class="radio_btn" type="radio" name="gender"><h6>Custom</h6> 
-                    <div id="QM"><p>?</p></div>
-                </div>
-                        <p>By clicking Sign Up, you agree tp our <a href="www.google.com">Terms</a>, <a href="www.yahoo.com">Data Policy</a> and <a href="blank">Cookie Policy</a>. You may recieve SMS notifications from us and can opt out at any time.</p>
-                        <input id="submit_btn" type="submit" value ="Sign Up">
             </div>
         </div>
-    </div>
-    <footer id="footer">
-        <div id="aboveline">
-            <spam>English(UK)</spam>
-            <a href="blank" title="Urdu">اردو</a>
-            <a href="blank" title="Pashto">پشتو</a>
-            <a href="blank" title="Arabic">ألعربية</a>
-            <a href="blank" title="Hindi">हिंदी</a>
-            <a href="blank" title="Bengali">बंगाली</a>
-            <a href="blank" title="Punjabi">पंजाबी</a>
-            <a href="blank" title="Persian">فارسی</a>
-            <a href="blank" title="Gujrati">गुजरती</a>
-            <a href="blank" title="Deutsch">German</a>
-            <a href="blank" title="Spanish">Espanol</a>  
-        </div>
-        <hr>
-        <div id="belowline">
-           <a href="asdsf" title="Sign Up for facebook">Sign Up</a>
-           <a href="asdsf" title="log in to facebook">Log In</a>
-           <a href="asdsf" title="Take a look at messenger">Messenger</a>
-           <a href="asdsf" title="Facebook Lite for Android">Facebook Lite</a>
-           <a href="asdsf" title="Browse our Watch videos">Watch</a>
-           <a href="asdsf" title="Browse our people directory">People</a>
-           <a href="asdsf" title="Browse our pages directory">Pages</a>
-           <a href="asdsf" title="">Page categories</a>
-           <a href="asdsf" title="take a look at popular places on facebook">Places</a>
-           <a href="asdsf" title="Check out facebook games">Games</a>
-           <a href="asdsf" title="Browse our places directory">Locations</a>
-           <a href="asdsf" title="Buy and Sell on facebook Marketplace">Marketplace</a>
-           <a href="asdsf" title="Browse our Groups directory">Groups</a>
-           <a href="asdsf" title="take a look at Instagram">Instagram</a>
-           <a href="asdsf" title="Browse our Local Lists directory">Local</a>
-           <a href="asdsf" title="Donate to worthy causes">Fundraisers</a>
-           <a href="asdsf" title="Browse our facebook Services directory">Services</a>
-           <a href="asdsf" title="Read our blog discover the resource centre and find job opportunities">About</a>
-           <a href="asdsf" title="Adverties on facebook">Create ad</a>
-           <a href="asdsf" title="Create a page">Create Page</a>
-           <a href="asdsf" title="Devlop on our platform">Developers</a>
-           <a href="asdsf" title="make your next career move to our brillient company">Careers</a>
-           <a href="asdsf" title="learn about your privacy anf facebook">Privacy</a>
-           <a href="asdsf" title="learn about cookies and facebook">Cookies</a>
-           <a href="asdsf" title="learn about Ad Choices">AdChoices</a>
-           <a href="asdsf" title="Review out terms and policies">Terms</a>
-           <a href="asdsf" title="Visit out Help Centre">Help</a>
-        </div>
-        <p id="ref">Facebook © 2020</p>
-    </footer>
+        <footer id="footer">
+            <div id="aboveline">
+                <spam>English(UK)</spam>
+                <a href="blank" title="Urdu">اردو</a>
+                <a href="blank" title="Pashto">پشتو</a>
+                <a href="blank" title="Arabic">ألعربية</a>
+                <a href="blank" title="Hindi">हिंदी</a>
+                <a href="blank" title="Bengali">बंगाली</a>
+                <a href="blank" title="Punjabi">पंजाबी</a>
+                <a href="blank" title="Persian">فارسی</a>
+                <a href="blank" title="Gujrati">गुजरती</a>
+                <a href="blank" title="Deutsch">German</a>
+                <a href="blank" title="Spanish">Espanol</a>  
+            </div>
+            <hr>
+            <div id="belowline">
+               <a href="asdsf" title="Sign Up for facebook">Sign Up</a>
+               <a href="asdsf" title="log in to facebook">Log In</a>
+               <a href="asdsf" title="Take a look at messenger">Messenger</a>
+               <a href="asdsf" title="Facebook Lite for Android">Facebook Lite</a>
+               <a href="asdsf" title="Browse our Watch videos">Watch</a>
+               <a href="asdsf" title="Browse our people directory">People</a>
+               <a href="asdsf" title="Browse our pages directory">Pages</a>
+               <a href="asdsf" title="">Page categories</a>
+               <a href="asdsf" title="take a look at popular places on facebook">Places</a>
+               <a href="asdsf" title="Check out facebook games">Games</a>
+               <a href="asdsf" title="Browse our places directory">Locations</a>
+               <a href="asdsf" title="Buy and Sell on facebook Marketplace">Marketplace</a>
+               <a href="asdsf" title="Browse our Groups directory">Groups</a>
+               <a href="asdsf" title="take a look at Instagram">Instagram</a>
+               <a href="asdsf" title="Browse our Local Lists directory">Local</a>
+               <a href="asdsf" title="Donate to worthy causes">Fundraisers</a>
+               <a href="asdsf" title="Browse our facebook Services directory">Services</a>
+               <a href="asdsf" title="Read our blog discover the resource centre and find job opportunities">About</a>
+               <a href="asdsf" title="Adverties on facebook">Create ad</a>
+               <a href="asdsf" title="Create a page">Create Page</a>
+               <a href="asdsf" title="Devlop on our platform">Developers</a>
+               <a href="asdsf" title="make your next career move to our brillient company">Careers</a>
+               <a href="asdsf" title="learn about your privacy anf facebook">Privacy</a>
+               <a href="asdsf" title="learn about cookies and facebook">Cookies</a>
+               <a href="asdsf" title="learn about Ad Choices">AdChoices</a>
+               <a href="asdsf" title="Review out terms and policies">Terms</a>
+               <a href="asdsf" title="Visit out Help Centre">Help</a>
+            </div>
+            <p id="ref">Facebook © 2020</p>
+        </footer>
+    
+
+    <script>
+        function formvalidate(e){
+            e.preventDefault();
+            var firstname = document.getElementById("fname");
+            var surname = document.getElementById("sname");
+            var email = document.getElementById("mail");
+            var password = document.getElementById("pass");
+            var gender = document.querySelector('input[name = "gender"]:checked').value;
+            var counter = 0;
+            // var genders = document.getElementsByClassName("radio_btn")
+            
+            firstname.style.border = "1px solid lightgray"
+            surname.style.border = "1px solid lightgray"
+            email.style.border = "1px solid lightgray"
+            password.style.border = "1px solid lightgray"
+            
+            // console.log(gender)
+            // return false
+            
+            // console.log(firstname)
+            // console.log(surname)
+            // console.log(email.value)
+            // console.log(password)
+            // console.log(genders.val())
+        //    return false
+    
+            // return false;
+
+            if(firstname.value == ""){
+                firstname.style.border = "1px solid red"
+                return false;
+            }
+            if(surname.value == ""){
+                surname.style.border = "1px solid red"
+                return false;
+            }
+           
+            if(email.value == ""){
+                email.style.border = "1px solid red"
+                return false;
+            }
+            
+            if(password.value == ""){
+                password.style.border = "1px solid red"
+                return false;
+            }
+
+            for(i = 0; i < email.value.length; i++){
+                if(email.value[i] == "@"){
+                    counter ++;
+                }
+
+            }
+                    if(counter == 1){
+                         return true;
+                    }
+                    else{
+                        alert("na kr yr")
+                        return false;
+                    }
+
+
+
+
+
+                    // console.log(counter                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     .value)
+                    // return false;
+
+                    // else{
+                    //     return false;
+                    // }
+                    // console.log(email.value[i])
+                    // alert("email is not correct");
+                    // return false;
+                // }
+                // console.log(email.value[i])
+                
+
+     
+            // if(genders.value == ""){
+            //     alert("please select gender");
+            //     return false;
+            // }
+          
+            // document.writeln("You entered " + gender + " for your gender<br>");
+        }
+
+    </script>
+
 </body>
 </html>

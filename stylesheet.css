@@ -290,7 +290,6 @@ hr{
 }
 @media screen and (max-width: 375px){
     .header{
-        padding-bottom: 12%;
         text-align: center;
     }
 
@@ -364,4 +363,9 @@ hr{
         width: 100%;
     }
 }
-
+/* #centre{
+    display: flex;
+    flex-grow: 1;
+    background-color: red;
+}
+ */
